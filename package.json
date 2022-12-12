@@ -1,0 +1,25 @@
+{
+  "name": "tif_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuel-Bobadilla/tif_is3_front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manuel-Bobadilla/tif_is3_front/issues"
+  },
+  "homepage": "https://github.com/Manuel-Bobadilla/tif_is3_front#readme",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "jsdom": "^20.0.3"
+  }
+}

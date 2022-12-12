@@ -7,10 +7,13 @@
     <meta name="author" content="John Doe">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="app.test.js"></script>
   </head>
   <body onload="inicializar()">
-    <button onclick="sumar()">+</button>
-    <input readonly type="number" id="texto">
-    <button onclick="restar()">-</button>
+    <div id="mydiv">
+      <button onclick="sumar()" id="mas">+</button>
+      <input readonly type="number" id="texto">
+      <button onclick="restar()" id="menos">-</button>
+    </div>
   </body>
 </html>
