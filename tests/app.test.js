@@ -4,7 +4,7 @@ describe('Testing Html', () => {
     test('Texto Boton Mas', async () => {
         const dom = await JSDOM.fromFile('/home/manuel/Documents/tif_front/index.html')
         const elementoHttp = dom.window.document.querySelector('#mas')
-        expect(elementoHttp.textContent).toBe("+s")
+        expect(elementoHttp.textContent).toBe("+")
     })
 
     test('Funcion Boton Mas', async () => {
