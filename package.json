@@ -5,7 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --coverage --reporters=jest-junit"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Manuel-Bobadilla/tif_is3_front#readme",
   "devDependencies": {
     "jest": "^29.3.1",
+    "jest-junit": "^15.0.0",
     "jsdom": "^20.0.3"
   }
 }
