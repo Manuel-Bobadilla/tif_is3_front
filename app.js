@@ -1,6 +1,6 @@
-const url = "http://localhost:3000/contador"
-const urlIncrementar = "http://localhost:3000/contador/incrementar"
-const urlDecrementar = "http://localhost:3000/contador/decrementar"
+const url = "https://tif-production.up.railway.app/contador"
+const urlIncrementar = "https://tif-production.up.railway.app/contador/incrementar"
+const urlDecrementar = "https://tif-production.up.railway.app/contador/decrementar"
 
 function inicializar(){
     const xmlHttp = new XMLHttpRequest()
