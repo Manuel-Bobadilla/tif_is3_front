@@ -1,6 +1,7 @@
 const url = "https://tif-production.up.railway.app/contador"
 const urlIncrementar = "https://tif-production.up.railway.app/contador/incrementar"
 const urlDecrementar = "https://tif-production.up.railway.app/contador/decrementar"
+const urlReiniciar = "https://tif-production.up.railway.app/contador/reiniciar"
 
 function inicializar(){
     const xmlHttp = new XMLHttpRequest()
@@ -22,6 +23,14 @@ function restar(){
     const xmlHttp = new XMLHttpRequest()
     
     xmlHttp.open("GET", urlDecrementar, false)
+    xmlHttp.send()
+    mostrarContador()
+}
+
+function reiniciar(){
+    const xmlHttp = new XMLHttpRequest()
+    
+    xmlHttp.open("GET", urlReiniciar, false)
     xmlHttp.send()
     mostrarContador()
 }
